@@ -5,6 +5,7 @@ public class Employee {
     int empId;
     float empSalary;
     String empAddress;
+    static String companyName= "Devsoft";
 
     public Employee(String empName, int empId, float empSalary, String empAddress ){
       this.empName = empName;
